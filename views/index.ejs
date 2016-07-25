@@ -12,7 +12,7 @@
   <script src="/bower_components/satellizer/satellizer.min.js"></script>
   <script src="/bower_components/angular-strap/dist/angular-strap.min.js"></script>
   <script src="/bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
-
+  <script src="https://use.fontawesome.com/547ac24cdb.js"></script>
   <script src="/js/bundle.js"></script>
 
 </head>
@@ -30,7 +30,7 @@
         <a class="headerText" href="" ng-click="gotoAnchor(2)"> About </a>
         <a class="headerText" href="" ng-click="gotoAnchor(3)"> Projects </a>
         <a class="headerText" href="" ng-click="gotoAnchor(4)"> Resume </a>
-        <a class="headerText" href="" ng-click="gotoAnchor(5)"> Contact </a>
+        <a class="headerText" href="" ng-click="gotoAnchor(5)"> Profiles </a>
       </div>
     </ul>
 
@@ -42,7 +42,7 @@
     <div id="anchor1" class="anchor">
       <div class = "container">     
         <div class= "title"> Molly Whitnack</div>
-        <div class="subTitle">Full Javascript Stack Developer 
+        <div class="subTitle">Full Stack Javascript Developer 
           <div class = 'smaller'> </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
       <div class = "container aboutCont">  
         <span class = 'about'> Hello! <br>I am a critical-thinker, dependable, and sociable new graduate eager to obtain position as a full stack developer. I attended UCSD, where I received a B.S. in physics with a specialization in astrophysics and a minor in computer science.
         <br> Other things about me <br>
-  
+
         <strong> What I Know:</strong>
         <br> Javascrpt | HTML | CSS | Mongo | Express | Angular | Node  | React
         </span>
@@ -73,16 +73,28 @@
 
 
    <div id="anchor4" class="anchor">
-    <p>Resume</p>
+    <div class = "text-center">
+    <iframe class = "resumeFrame" src="https://docs.google.com/document/d/1xuZ3U1xNkojCjbw8nDBxzsU05K3FI-0oxvD8QE-mCos/pub?embedded=true"></iframe>
+    </div>
+  </div>
+
+   <div id="anchor5" class="anchor">
+    <div class = 'container text-center'>
+     <div class = "row">
+        <div class="col-md-4" id ="wrapper"><a href ="https://angel.co/molly-whitnack"><i class="fa fa-angellist fa-5x hover" aria-hidden="true"><p class = "text"></p></i></a></div>
+        <div class="col-md-4" id ="wrapper">  <a href ="https://twitter.com/MollyWhitnack"><i class="fa fa-twitter fa-5x hover" aria-hidden="true"><p class = "text"></p></i></a></div>
+        <div class="col-md-4" id ="wrapper"><a href = "https://github.com/mollywhitnack"><i class="fa fa-github fa-5x hover" aria-hidden="true"><p class = "text"></p></i></a></div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+         <div class="col-md-4" id ="wrapper2"><a href="https://www.quora.com/profile/Molly-Whitnack-1" id = "qoura">Q</a><p class = "text"></p></div>
+         <div class="col-md-4" id ="wrapper"><a href = "http://stackoverflow.com/users/6073965/molly-whitnack"><i class="fa fa-stack-overflow fa-5x hover" aria-hidden="true"><p class = "text"></p></i></a></div>
+         <div class="col-md-4" id ="wrapper"><a href="https://www.linkedin.com/in/molly-whitnack-55525b9a"><i class="fa fa-linkedin fa-5x hover" aria-hidden="true"><p class = "text"></p></i></a></div>
+      </div>
+      
+      </div>
     </div>
 
-    <div id="anchor5" class="anchor">
-    <p>Contact</p>
-    </div>
-
-    <!--<div id="anchor{{x}}" class="anchor" ng-repeat="x in [2,3,4]"> Anchor {{x}} of 3</div>-->
-
-
-    <div ui-view></div></div>
 </body>
 </html>

@@ -54,14 +54,21 @@ nav {
 
 #anchor3 {
   background-color: white;
-  padding-top: 20%;
+  padding-top: 23%;
   border-top: 10px solid #e6e6e6; }
 
 #anchor4 {
-  border-top: 10px solid #e6e6e6; }
+  border-top: 10px solid #e6e6e6;
+  background-color: #f0f2f4; }
+
+.resumeFrame {
+  width: 80%;
+  margin-top: 5%;
+  height: 600px; }
 
 #anchor5 {
-  border-top: 10px solid #e6e6e6; }
+  border-top: 10px solid #e6e6e6;
+  padding-top: 22%; }
 
 .aboutCont {
   width: 65%;
@@ -141,3 +148,16 @@ section {
 
 .min section {
   background-color: pink; }
+
+#qoura {
+  color: #b30000;
+  font: bold 70px/90px Georgia, serif; }
+
+.fa-stack-overflow:before {
+  color: #e68a00; }
+
+.fa-twitter:before {
+  color: #3399ff; }
+
+.fa-angellist:before {
+  color: black; }
