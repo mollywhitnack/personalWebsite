@@ -5,7 +5,7 @@ ol {
   margin: 0;
   padding: 0; }
 
-body {
+#anchor1 {
   background: url("http://i.imgur.com/vQFTXmt.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,7 +15,7 @@ body {
   font-weight: lighter;
   font-variant: normal;
   text-transform: uppercase;
-  color: #666666; }
+  /*color: #666666;*/ }
 
 nav {
   padding-right: 5%; }
@@ -26,10 +26,72 @@ nav {
 .title {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 375%;
-  margin-top: 5px;
   margin-bottom: 0px;
   font-weight: normal;
-  color: #222; }
+  color: #222;
+  padding-top: 13%; }
+
+.initals {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 215%;
+  margin-bottom: 0px;
+  font-weight: normal;
+  color: #222;
+  padding-left: 20px; }
+
+.headerText {
+  font-family: "Lucida Grande", Tahoma;
+  font-weight: lighter;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: #666666;
+  font-size: 140%;
+  margin-left: 10px; }
+
+#anchor2 {
+  background-color: #f0f2f4;
+  border-top: 10px solid #e6e6e6; }
+
+#anchor3 {
+  background-color: white;
+  padding-top: 20%;
+  border-top: 10px solid #e6e6e6; }
+
+#anchor4 {
+  border-top: 10px solid #e6e6e6; }
+
+#anchor5 {
+  border-top: 10px solid #e6e6e6; }
+
+.aboutCont {
+  width: 65%;
+  border: 1px solid #000;
+  padding: 20px;
+  margin-top: 14%; }
+
+.projects {
+  font-family: "Lucida Grande", Tahoma;
+  font-size: 100%;
+  font-weight: lighter;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: #666666; }
+
+.projectimg {
+  width: 100%;
+  border: 10px solid #e6e6e6; }
+
+img.projectimg:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%); }
+
+.about {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 120%;
+  margin-bottom: 0px;
+  font-weight: normal;
+  color: #222;
+  margin-top: 20%; }
 
 .subTitle {
   font-family: "Lucida Grande", Tahoma;
@@ -38,5 +100,44 @@ nav {
   font-variant: normal;
   text-transform: uppercase;
   color: #666666;
-  margin-top: 10px;
   letter-spacing: 0.3em; }
+
+.smaller {
+  font-family: "Lucida Grande", Tahoma;
+  font-size: 75%;
+  font-weight: lighter;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: #666666;
+  padding-top: 20px;
+  letter-spacing: 0.1em; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.anchor {
+  padding: 0px 0px 00px 0px;
+  height: 100vh; }
+
+#page {
+  height: 1000px; }
+
+header {
+  top: 0;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+section {
+  background-color: lightgrey; }
+
+.min {
+  height: 0px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+
+.min section {
+  background-color: pink; }

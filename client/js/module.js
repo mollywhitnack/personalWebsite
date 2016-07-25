@@ -1,8 +1,13 @@
 'use strict';
 
-var app = angular.module('myApp', ['mgcrea.ngStrap', 'ui.router']);
+//var app = angular.module('myApp', ['mgcrea.ngStrap', 'ui.router']);
 
-app.config(function($stateProvider, $urlRouterProvider) {
+var app = angular.module('myApp', ['mgcrea.ngStrap', 'ui.router'])
+.run(['$anchorScroll', function($anchorScroll) {
+  $anchorScroll.yOffset = 50;   // always scroll by 50 extra pixels
+}])
+
+/*app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
   .state('home', {
@@ -26,5 +31,5 @@ app.config(function($stateProvider, $urlRouterProvider) {
     controller: 'projectsCtrl'
   })
   $urlRouterProvider.otherwise('/');
-});
+});*/
 

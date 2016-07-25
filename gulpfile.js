@@ -49,7 +49,7 @@ gulp.task('lint', function(){
 gulp.task('default', ['build', 'watch', 'browser-sync']);
 
 //tess heroku to run build but not watch
-gulp.task('build', ['html', 'css', 'js']);
+gulp.task('build', ['css', 'html', 'js']);
 gulp.task('watch',['watch:html', 'watch:css', 'watch:js']);
 
 //for gulp to run 
@@ -144,7 +144,7 @@ gulp.task('browser-sync', ['nodemon'], function () {
   browserSync({
     proxy: 'http://localhost:8000',
     port: 4000,
-    browser: ['google-chrome']
+    //browser: ['google-chrome']
   });
 });
 
