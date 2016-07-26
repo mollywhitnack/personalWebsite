@@ -41,8 +41,12 @@ nav {
   padding-left: 20px;
 }
 
+
+.initial:hover{
+  text-decoration: none;
+}
 .initial{
-    color: #222;
+  color: #222;
 }
 
 .headerText {
@@ -51,41 +55,57 @@ nav {
   font-variant: normal;
   text-transform: uppercase;
   color: #666666;
-  font-size: 140%;
-  margin-left: 10px; }
+  font-size: 180%;
+  margin-left: 20px; 
+}
+
+.headerText:hover {
+  text-decoration: none;
+}
 
 #anchor2 {
   background-color: #f0f2f4; 
-  border-top: 10px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+}
+
+i.fa{
+  color: black;
+  padding-left: 10px;
 }
 
 footer{
+  position:absolute;
   font-family: "Lucida Grande", Tahoma;
-  font-size: 70%;
+  font-size: 80%;
   font-weight: lighter;
   font-variant: normal;
   text-transform: uppercase;
   color: #666666;
   letter-spacing: 0.3em; 
-  margin-top:42%;
   text-align: center;
 }
 
 #anchor3{
     background-color: white;
     padding-top: 18%;
-    border-top: 10px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
   }
 
 #anchor4{
-    border-top: 10px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
     background-color: #f0f2f4;
   }
+
+iframe{
+  width: 90%;
+  height: 600px;
+}  
 .resumeFrame{
   margin-top: 6%;
+
 }
 #anchor5{
-    border-top: 10px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
     padding-top: 20%;
   }
 
@@ -111,11 +131,6 @@ footer{
   border: 10px solid #e6e6e6;
 }
 
-
-img.projectimg:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
-}
 
 .about {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -182,13 +197,24 @@ section{
 
 #qoura{
   color:#b30000;
-  font: bold 70px/90px Georgia, serif;
+  font: bold 30px/50px Georgia, serif;
+  padding-left: 10px;
 }
-.fa-linkedin:before{  }
 
-.fa-stack-overflow:before{color:#e68a00;}
+.fa-linkedin:hover{color:#666666;}
+/*.fa-linkedin:before{color:#666666;}*/
+.fa-github:hover{color:#666666;}
 
-.fa-twitter:before{color:#3399ff;}
+.fa-stack-overflow:hover{color:#666666;}
 
-.fa-angellist:before{ color:black; }
+.fa-twitter:hover{color:#666666;}
+
+.fa-angellist:hover{ color:#666666; }
+
+.projectimg:hover{
+  opacity:1;
+  width: 300px;
+}
+
+
 
